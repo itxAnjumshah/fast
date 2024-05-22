@@ -1,0 +1,18 @@
+.nav{
+    background-color: #fe5b29;
+}
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.list-item:hover{
+    color: yellowgreen;
+}

@@ -1,0 +1,34 @@
+.outer-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.text-touch{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+}
+
+.touch{  
+    background-color: #ff6347;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 100%;
+   text-align: center;
+   position: relative;
+   padding: 110px 20px 50px 20px;
+}
+.touch input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    width: 70%;
+}

@@ -1,0 +1,80 @@
+body{
+    background-image: url("../Assets/project-5.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+     
+}
+.curreny{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: transparent ;
+    height: auto;
+    background-color:  white;
+    border: 1px solid white;
+    /* opacity: 0.5; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    padding: 50px;
+    margin: auto;
+    border-radius: 50px; 
+   gap: 20px;
+
+}
+
+
+.Wraper{
+    background-color: red;
+    padding: 20px  20px  20px 20px;
+border-radius: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    width: 100%;
+
+    
+}
+.wraper-iner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+
+.wraper-iner .most-inner{
+    display: flex;
+    flex-direction: column;
+   color: white;
+   font-size: 20px;
+}
+
+.container .swap{
+    padding: 20px 20px;
+    position: absolute;
+    top: 42.5%;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-txt{
+    padding: 10px 20px;
+    width: 90%;
+  text-align: center;
+    background-color: blue;
+    color: white;
+   font-size: 20px;
+   cursor: pointer;
+}

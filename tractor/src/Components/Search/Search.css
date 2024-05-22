@@ -1,0 +1,44 @@
+.search{
+    background-color: #363636;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px 60px;
+    padding-left: 50px;
+    margin-top: 90px;
+}
+.search h1{
+    font-size: 45px;
+    line-height: 8vh;
+}
+.search p{
+    width: 100%;
+    color: #fefefd;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.option{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 90px;
+    gap: 20px;
+    margin-top: 30px;
+    text-align: left;
+    height: 40px;
+  
+   
+}
+.option  select{
+    border: none;
+    display: inline;  
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    width: 100%;
+}
+.search-btn{
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    height: 43px;
+}

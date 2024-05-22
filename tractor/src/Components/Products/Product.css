@@ -1,0 +1,52 @@
+
+h1{
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    
+}
+
+.Product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 60px 60px;
+    
+}
+.product-card{
+   margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 40px 40px;
+    box-shadow: 10px 10px 10px 10px   #f4f3f2;
+   border-radius: 50px;
+   transition: transform 0.2s ease-in-out;
+   text-align: center;
+}
+.product-card:hover{  
+    box-shadow: 0px 0px 15px black;    
+}
+.product-card h1{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.product-card h5{
+    
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+.product-card button{
+    padding: 10px 20px ;
+    margin-top: 10px;
+    border: none;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+}
+.product-card button:hover{
+    background-color: black;
+}

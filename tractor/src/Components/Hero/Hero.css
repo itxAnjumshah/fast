@@ -1,0 +1,51 @@
+.Hero {
+  background-image: url("../Assets/banner-bg.png"); /* Replace 'background.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* This ensures the background image covers the entire viewport height */
+  display: flex;
+  justify-content: left;
+  align-items: center; /* Align items to the top */
+}
+.hero-text {
+  padding: 10px 20px;
+}
+
+.read-btn {
+  padding: 20px 50px;
+  background-color: #fe5b29;
+  border: none;
+  color: white;
+  margin-right: 10px;
+}
+.read-btn:hover {
+  background-color: black;
+}
+.contact-btn {
+  padding: 20px 50px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.hero-text h1 span {
+  color: #fe5b29;
+  font-size: 45px;
+}
+.hero-text h1,
+.hero-text h1 span {
+  font-size: 65px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hero-text p {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(120, 122, 123);
+}
+.text-btn {
+  margin-right: 10px;
+  
+  font-size: 25px;
+}
+

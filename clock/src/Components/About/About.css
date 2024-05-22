@@ -1,0 +1,15 @@
+.contianer-outer{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 75px;
+    flex-wrap: wrap;
+}
+.container-iner{
+    border: 1px solid white;
+    padding: 30px;
+    width:15%;
+   text-align: center;
+
+}

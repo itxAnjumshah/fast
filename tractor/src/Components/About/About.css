@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    padding: 50px;
+    gap: 40px;
+    height: 40vh;
+    
+}
+.about img{
+    width: 50%;
+   
+}
+.about h1{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 10vh;
+}
+.about h1 span{
+    color: #fe5b29;;
+}
+.about p{
+    color: rgb(108, 114, 114);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-bottom: 20px;
+}
+.about .about-btn{
+padding: 15px 40px;
+color: white;
+background-color: black;
+border: none;
+font-weight: 500;
+font-size: 15px;
+}
+.about .about-btn:hover{
+    background-color: #fe5b29;
+}

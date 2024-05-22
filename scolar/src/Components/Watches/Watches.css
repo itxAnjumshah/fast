@@ -1,0 +1,67 @@
+.watches {
+    color: white;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 90px; /* Changed padding to apply only left and right */
+  }
+  
+  .container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .container-1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+  }
+  
+  .container-1 .container-1-item-2 {
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+  .container-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px; /* Added margin-top to separate container-2 from container-1 */
+    gap: 90px;
+    align-items: center;
+  }
+  
+  .container-2 img {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+  }
+  
+  .container-2-item {
+    max-width: 50%; /* Added max-width to prevent the content from overflowing */
+    
+    
+  }
+  .container-2-item h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .container-2-item p{
+    padding-top: 10px;
+    font-family: cursive;
+  }
+  .container-2 h4 span{
+color: red;
+font-size: 25px;
+
+  }
+  .container-2 h4{
+    font-size: 28px;
+  }
+  .container-2 button{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 50px;
+  }

@@ -1,0 +1,43 @@
+/* .enquery{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 810px;
+    margin: auto;
+} */
+.enquery {
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+    margin: auto;
+}
+
+/* Media Query for small screens (up to 600px) */
+@media screen and (max-width: 600px) {
+    .enquery {
+        width: 100%; 
+        background-color: aquamarine;/* Adjust width for smaller screens */
+    }
+}
+@media screen and (min-width: 800px) {
+    .enquery {
+        width: 1200px; 
+        background: linear-gradient(to right, #271e1c, #feb47b); 
+    }
+}
+
+
+/* Media Query for large screens (greater than 1200px) */
+@media screen and (min-width: 1200px) {
+    .enquery {
+        width: 1200px; 
+        background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    }
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }

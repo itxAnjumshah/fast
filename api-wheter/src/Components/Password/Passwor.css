@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color:orange;
+    text-align: center;
+
+    
+}
+.box{
+    background-color: gray;
+    width: 505px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.inp-text{
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    width: 90%;
+
+
+
+}
+button{
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+margin-bottom: 50px;
+}

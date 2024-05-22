@@ -1,0 +1,31 @@
+
+header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./Components/Assets/banner-bg.png");
+    /* position: fixed; */
+    position: absolute;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+}
+.white-img{
+    background-image: url("./Components/Assets/header-bg.png");
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
